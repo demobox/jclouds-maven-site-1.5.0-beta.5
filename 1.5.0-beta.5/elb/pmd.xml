@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-07-10T12:37:17.873">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.5/labs/elb/src/main/java/org/jclouds/elb/xml/DescribeLoadBalancersResponseHandler.java">
+<violation beginline="45" endline="45" begincolumn="30" endcolumn="40" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.elb.xml" class="DescribeLoadBalancersResponseHandler" variable="dateService" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'dateService'.
+</violation>
+<violation beginline="66" endline="66" begincolumn="20" endcolumn="45" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.elb.xml" class="DescribeLoadBalancersResponseHandler" variable="inLoadBalancerDescriptions" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'inLoadBalancerDescriptions'.
+</violation>
+<violation beginline="70" endline="70" begincolumn="38" endcolumn="62" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.elb.xml" class="DescribeLoadBalancersResponseHandler" variable="appCookieStickinessPolicy" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'appCookieStickinessPolicy'.
+</violation>
+<violation beginline="72" endline="72" begincolumn="37" endcolumn="60" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.elb.xml" class="DescribeLoadBalancersResponseHandler" variable="lBCookieStickinessPolicy" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'lBCookieStickinessPolicy'.
+</violation>
+<violation beginline="91" endline="93" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.elb.xml" class="DescribeLoadBalancersResponseHandler" method="startElement" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>
